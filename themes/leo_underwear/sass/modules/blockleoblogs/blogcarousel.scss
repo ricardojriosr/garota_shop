@@ -1,0 +1,100 @@
+@import "compass";
+@import "theme_variables";
+
+.blog_container {
+	background: $light-background;
+	position: relative;
+	margin-bottom: 20px;
+	.blog-meta {
+		font-size: $font-size-base - 2;
+		margin-bottom: 15px;
+		color: #999;
+		> * {
+			@include rtl-margin-right(5px);
+		}
+	}
+	.blog-viewmore {
+		margin-top: 20px; 
+		display: none;
+	}
+	.blog-created {
+		@include rtl-float-left();
+		font-size: $font-size-base - 2;
+	}
+	.blog-info{
+		h4 {
+			margin: 0px 0 10px;
+			line-height: 20px;
+			min-height: 42px;
+			overflow: hidden;
+			a {
+				font-size: $font-size-base;
+				font-family: $font-family-tertiary;
+				color: $theme-color-secondary;
+				text-transform: none;
+				&:hover{
+					color: $link-hover-color;
+				}
+			}
+		}
+	}
+	.blog-shortinfo{
+		font-size: $font-size-base;
+		color: #666;
+	}
+	.blog-image {
+		position: relative;
+		overflow: hidden;
+		@include rtl-float-left();
+		img {
+			@include transition(all 1s ease-in-out);
+		}
+		&:hover {
+			img {
+				@include transform(scale(1.5));
+			}
+		}
+	}
+	.blog-info{
+		@include rtl-float-left();
+	}
+}
+.blog-viewall{
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: $font-family-secondary;
+	background: #f4f4f4;
+	padding: 5px 10px;
+	color: #858585;
+	display: inline-block;
+	margin-top: 20px;
+	&:hover{
+		background: $theme-color-default;
+		color: $white;
+	}
+	.fa{
+		font-size: 10px;
+		font-weight: normal;
+	}
+}
+.blockleoblogs{
+	.title_block{
+		border: none;
+		text-align: center;
+		margin: 0 0 $grid-gutter-width;
+		padding: 0px 0 25px;
+		&:before{
+			background: url("images/bg-title-block-widget.png") no-repeat 0 0;
+			content: "";
+		    position: absolute;
+		    width: 75px;
+		    height: 11px;
+		    bottom: 0;
+		    @include rtl-left(50%);
+		    @include rtl-margin-left(-45px);
+		}
+		&:after{
+			display: none;
+		}
+	}
+}

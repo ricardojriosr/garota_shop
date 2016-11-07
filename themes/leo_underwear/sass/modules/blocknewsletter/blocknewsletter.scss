@@ -1,0 +1,71 @@
+@import "compass";
+@import "theme_variables";
+
+/* Block newsletter */
+#columns #newsletter_block_left {	 
+	.success_inline, .warning_inline {
+		@include rtl-text-align-left();
+		padding: 1px 0 0 0;
+		margin-bottom: -19px;	
+	}
+	.success_inline	{
+		color: #418B19;
+	}
+	.warning_inline {
+		color: #f13340;
+	}
+}
+/* Block newsletter footer */
+#footer {
+	#newsletter_block_left {
+		@media (max-width: $screen-xs-max) { // max 767px
+			width: 100%;
+		}
+		h5 {
+			text-transform: none;
+			font-size: 12px;
+			text-transform: uppercase;
+			margin-top: 0;
+			color: $black;
+			&:after {
+				display: none;
+			}
+		}
+		.block_content {
+			width: 45%;
+			display: inline-block;
+		}
+		.alert-danger{
+			position: absolute;
+			top: -50px;
+			padding: 10px;
+			width: 100%;
+		}
+		.alert-success{
+			position: absolute;
+			top: -50px;
+			padding: 10px;
+			width: 100%;
+		}
+		.warning_inline {
+			display: block;
+			color: #f13340; 
+			font-size: 13px;
+			line-height: 26px;
+			clear: both;
+		}
+		.newsletter-input {
+  			height: 38px;
+  			background: transparent;
+  			border: none;
+  		}
+  		.btn-default{
+  			position: absolute;
+  			top: 0px;
+  			@include rtl-right(0px);
+  		}
+  		.success_inline	{
+			color: #418B19;
+		}
+	}
+}

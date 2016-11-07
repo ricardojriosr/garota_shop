@@ -1,0 +1,160 @@
+[20-Sep-2016 12:23:05 US/Eastern] PHP Fatal error:  Uncaught  --> Smarty: unable to write file /home/alejandro1711/public_html/soygarota/cache/smarty/cache/blockcategories/1/1/21/2/11/1/65/ed/c6/wrt57e16269b4b318_04008423 <-- 
+  thrown in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_write_file.php on line 46
+[20-Sep-2016 18:17:57 US/Eastern] PHP Fatal error:  Uncaught  --> Smarty: unable to write file /home/alejandro1711/public_html/soygarota/cache/smarty/cache/leomenusidebar//20160920/0/1/1/1/1/21//03/80/2c/wrt57e1b595914e33_33996636 <-- 
+  thrown in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_write_file.php on line 46
+[05-Nov-2016 21:37:46 US/Eastern] PHP Fatal error:  Uncaught  --> Smarty: unable to write file /home/alejandro1711/public_html/soygarota/cache/smarty/compile/b2/2f/af/wrt581e896a5e4986_23911558 <-- 
+  thrown in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_write_file.php on line 46
+[05-Nov-2016 23:17:32 US/Eastern] PHP Fatal error:  Uncaught  --> Smarty: unable to write file /home/alejandro1711/public_html/soygarota/cache/smarty/compile/48/64/23/wrt581ea0cc452552_62934067 <-- 
+  thrown in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_write_file.php on line 46
+[05-Nov-2016 23:17:32 US/Eastern] PHP Fatal error:  Uncaught  --> Smarty: unable to write file /home/alejandro1711/public_html/soygarota/cache/smarty/compile/8c/1d/62/wrt581ea0cc54c3f4_40507914 <-- 
+  thrown in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_write_file.php on line 46
+[05-Nov-2016 23:17:42 US/Eastern] PHP Fatal error:  Uncaught  --> Smarty: unable to write file /home/alejandro1711/public_html/soygarota/cache/smarty/compile/74/c9/3e/74c93e7481722dd77bd3da85702a8d2a031bdc20.file.blockbestsellers.tpl.cache.php <-- 
+  thrown in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_write_file.php on line 74
+[05-Nov-2016 23:17:42 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 64
+[05-Nov-2016 23:17:42 US/Eastern] PHP Notice:  Undefined variable: sliders in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 69
+[05-Nov-2016 23:17:42 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 71
+[05-Nov-2016 23:17:42 US/Eastern] PHP Notice:  Undefined index: video in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 75
+[05-Nov-2016 23:17:42 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 77
+[05-Nov-2016 23:17:42 US/Eastern] PHP Notice:  Undefined index: layers in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 81
+[05-Nov-2016 23:17:42 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 83
+[05-Nov-2016 23:17:42 US/Eastern] PHP Notice:  Undefined index: enable_link in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 134
+[05-Nov-2016 23:17:42 US/Eastern] PHP Notice:  Undefined index: delay in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 141
+[05-Nov-2016 23:17:42 US/Eastern] PHP Notice:  Undefined index: usevideo in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 145
+[05-Nov-2016 23:17:42 US/Eastern] PHP Notice:  Undefined index: usevideo in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 145
+[05-Nov-2016 23:17:42 US/Eastern] PHP Notice:  Undefined index: image in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 174
+[05-Nov-2016 23:17:42 US/Eastern] PHP Notice:  Undefined index: thumbnail in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 178
+[05-Nov-2016 23:17:42 US/Eastern] PHP Notice:  Undefined index: image in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 180
+[05-Nov-2016 23:17:42 US/Eastern] PHP Notice:  Undefined index: duration in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 65
+[05-Nov-2016 23:17:42 US/Eastern] PHP Notice:  Undefined index: transition in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 66
+[05-Nov-2016 23:17:42 US/Eastern] PHP Notice:  Undefined index: slot in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 67
+[05-Nov-2016 23:18:03 US/Eastern] PHP Fatal error:  Uncaught  --> Smarty: unable to write file /home/alejandro1711/public_html/soygarota/cache/smarty/compile/48/64/23/486423363a4cda0b48d2036a8e042d7c0c53f825.file.widget_html.tpl.php <-- 
+  thrown in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_write_file.php on line 74
+[05-Nov-2016 23:18:03 US/Eastern] PHP Fatal error:  Uncaught  --> Smarty: unable to write file /home/alejandro1711/public_html/soygarota/cache/smarty/compile/48/64/23/wrt581ea0ebc9f0e3_55322981 <-- 
+  thrown in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_write_file.php on line 46
+[05-Nov-2016 23:18:05 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 64
+[05-Nov-2016 23:18:05 US/Eastern] PHP Notice:  Undefined variable: sliders in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 69
+[05-Nov-2016 23:18:05 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 71
+[05-Nov-2016 23:18:05 US/Eastern] PHP Notice:  Undefined index: video in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 75
+[05-Nov-2016 23:18:05 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 77
+[05-Nov-2016 23:18:05 US/Eastern] PHP Notice:  Undefined index: layers in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 81
+[05-Nov-2016 23:18:05 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 83
+[05-Nov-2016 23:18:05 US/Eastern] PHP Notice:  Undefined index: enable_link in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 134
+[05-Nov-2016 23:18:05 US/Eastern] PHP Notice:  Undefined index: delay in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 141
+[05-Nov-2016 23:18:05 US/Eastern] PHP Notice:  Undefined index: usevideo in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 145
+[05-Nov-2016 23:18:05 US/Eastern] PHP Notice:  Undefined index: usevideo in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 145
+[05-Nov-2016 23:18:05 US/Eastern] PHP Notice:  Undefined index: image in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 174
+[05-Nov-2016 23:18:05 US/Eastern] PHP Notice:  Undefined index: thumbnail in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 178
+[05-Nov-2016 23:18:05 US/Eastern] PHP Notice:  Undefined index: image in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 180
+[05-Nov-2016 23:18:05 US/Eastern] PHP Notice:  Undefined index: duration in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 65
+[05-Nov-2016 23:18:05 US/Eastern] PHP Notice:  Undefined index: transition in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 66
+[05-Nov-2016 23:18:05 US/Eastern] PHP Notice:  Undefined index: slot in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 67
+[05-Nov-2016 23:18:37 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 64
+[05-Nov-2016 23:18:37 US/Eastern] PHP Notice:  Undefined variable: sliders in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 69
+[05-Nov-2016 23:18:37 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 71
+[05-Nov-2016 23:18:37 US/Eastern] PHP Notice:  Undefined index: video in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 75
+[05-Nov-2016 23:18:37 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 77
+[05-Nov-2016 23:18:37 US/Eastern] PHP Notice:  Undefined index: layers in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 81
+[05-Nov-2016 23:18:37 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 83
+[05-Nov-2016 23:18:37 US/Eastern] PHP Notice:  Undefined index: enable_link in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 134
+[05-Nov-2016 23:18:37 US/Eastern] PHP Notice:  Undefined index: delay in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 141
+[05-Nov-2016 23:18:37 US/Eastern] PHP Notice:  Undefined index: usevideo in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 145
+[05-Nov-2016 23:18:37 US/Eastern] PHP Notice:  Undefined index: usevideo in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 145
+[05-Nov-2016 23:18:37 US/Eastern] PHP Notice:  Undefined index: image in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 174
+[05-Nov-2016 23:18:37 US/Eastern] PHP Notice:  Undefined index: thumbnail in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 178
+[05-Nov-2016 23:18:37 US/Eastern] PHP Notice:  Undefined index: image in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 180
+[05-Nov-2016 23:18:37 US/Eastern] PHP Notice:  Undefined index: duration in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 65
+[05-Nov-2016 23:18:37 US/Eastern] PHP Notice:  Undefined index: transition in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 66
+[05-Nov-2016 23:18:37 US/Eastern] PHP Notice:  Undefined index: slot in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 67
+[05-Nov-2016 23:18:38 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 64
+[05-Nov-2016 23:18:38 US/Eastern] PHP Notice:  Undefined variable: sliders in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 69
+[05-Nov-2016 23:18:38 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 71
+[05-Nov-2016 23:18:38 US/Eastern] PHP Notice:  Undefined index: video in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 75
+[05-Nov-2016 23:18:38 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 77
+[05-Nov-2016 23:18:38 US/Eastern] PHP Notice:  Undefined index: layers in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 81
+[05-Nov-2016 23:18:38 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 83
+[05-Nov-2016 23:18:38 US/Eastern] PHP Notice:  Undefined index: enable_link in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 134
+[05-Nov-2016 23:18:38 US/Eastern] PHP Notice:  Undefined index: delay in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 141
+[05-Nov-2016 23:18:38 US/Eastern] PHP Notice:  Undefined index: usevideo in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 145
+[05-Nov-2016 23:18:38 US/Eastern] PHP Notice:  Undefined index: usevideo in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 145
+[05-Nov-2016 23:18:38 US/Eastern] PHP Notice:  Undefined index: image in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 174
+[05-Nov-2016 23:18:38 US/Eastern] PHP Notice:  Undefined index: thumbnail in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 178
+[05-Nov-2016 23:18:38 US/Eastern] PHP Notice:  Undefined index: image in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 180
+[05-Nov-2016 23:18:38 US/Eastern] PHP Notice:  Undefined index: duration in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 65
+[05-Nov-2016 23:18:38 US/Eastern] PHP Notice:  Undefined index: transition in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 66
+[05-Nov-2016 23:18:38 US/Eastern] PHP Notice:  Undefined index: slot in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 67
+[05-Nov-2016 23:19:10 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 64
+[05-Nov-2016 23:19:10 US/Eastern] PHP Notice:  Undefined variable: sliders in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 69
+[05-Nov-2016 23:19:10 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 71
+[05-Nov-2016 23:19:10 US/Eastern] PHP Notice:  Undefined index: video in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 75
+[05-Nov-2016 23:19:10 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 77
+[05-Nov-2016 23:19:10 US/Eastern] PHP Notice:  Undefined index: layers in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 81
+[05-Nov-2016 23:19:10 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 83
+[05-Nov-2016 23:19:10 US/Eastern] PHP Notice:  Undefined index: enable_link in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 134
+[05-Nov-2016 23:19:10 US/Eastern] PHP Notice:  Undefined index: delay in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 141
+[05-Nov-2016 23:19:10 US/Eastern] PHP Notice:  Undefined index: usevideo in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 145
+[05-Nov-2016 23:19:10 US/Eastern] PHP Notice:  Undefined index: usevideo in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 145
+[05-Nov-2016 23:19:10 US/Eastern] PHP Notice:  Undefined index: image in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 174
+[05-Nov-2016 23:19:10 US/Eastern] PHP Notice:  Undefined index: thumbnail in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 178
+[05-Nov-2016 23:19:10 US/Eastern] PHP Notice:  Undefined index: image in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 180
+[05-Nov-2016 23:19:10 US/Eastern] PHP Fatal error:  Uncaught  --> Smarty: unable to write file /home/alejandro1711/public_html/soygarota/cache/smarty/cache/blocksocial/1/1/1/21/ef/01/6c/wrt581ea12ea6a768_42643934 <-- 
+  thrown in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_write_file.php on line 46
+[05-Nov-2016 23:19:10 US/Eastern] PHP Notice:  Undefined index: duration in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 65
+[05-Nov-2016 23:19:10 US/Eastern] PHP Notice:  Undefined index: transition in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 66
+[05-Nov-2016 23:19:10 US/Eastern] PHP Notice:  Undefined index: slot in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 67
+[05-Nov-2016 23:19:49 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 64
+[05-Nov-2016 23:19:49 US/Eastern] PHP Notice:  Undefined variable: sliders in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 69
+[05-Nov-2016 23:19:49 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 71
+[05-Nov-2016 23:19:49 US/Eastern] PHP Notice:  Undefined index: video in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 75
+[05-Nov-2016 23:19:49 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 77
+[05-Nov-2016 23:19:49 US/Eastern] PHP Notice:  Undefined index: layers in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 81
+[05-Nov-2016 23:19:49 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 83
+[05-Nov-2016 23:19:49 US/Eastern] PHP Notice:  Undefined index: enable_link in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 134
+[05-Nov-2016 23:19:49 US/Eastern] PHP Notice:  Undefined index: delay in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 141
+[05-Nov-2016 23:19:49 US/Eastern] PHP Notice:  Undefined index: usevideo in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 145
+[05-Nov-2016 23:19:49 US/Eastern] PHP Notice:  Undefined index: usevideo in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 145
+[05-Nov-2016 23:19:49 US/Eastern] PHP Notice:  Undefined index: image in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 174
+[05-Nov-2016 23:19:49 US/Eastern] PHP Notice:  Undefined index: thumbnail in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 178
+[05-Nov-2016 23:19:49 US/Eastern] PHP Notice:  Undefined index: image in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 180
+[05-Nov-2016 23:19:50 US/Eastern] PHP Notice:  Undefined index: duration in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 65
+[05-Nov-2016 23:19:50 US/Eastern] PHP Notice:  Undefined index: transition in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 66
+[05-Nov-2016 23:19:50 US/Eastern] PHP Notice:  Undefined index: slot in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 67
+[05-Nov-2016 23:20:18 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 64
+[05-Nov-2016 23:20:18 US/Eastern] PHP Notice:  Undefined variable: sliders in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 69
+[05-Nov-2016 23:20:18 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 71
+[05-Nov-2016 23:20:18 US/Eastern] PHP Notice:  Undefined index: video in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 75
+[05-Nov-2016 23:20:18 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 77
+[05-Nov-2016 23:20:18 US/Eastern] PHP Notice:  Undefined index: layers in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 81
+[05-Nov-2016 23:20:18 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 83
+[05-Nov-2016 23:20:18 US/Eastern] PHP Notice:  Undefined index: enable_link in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 134
+[05-Nov-2016 23:20:18 US/Eastern] PHP Notice:  Undefined index: delay in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 141
+[05-Nov-2016 23:20:18 US/Eastern] PHP Notice:  Undefined index: usevideo in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 145
+[05-Nov-2016 23:20:18 US/Eastern] PHP Notice:  Undefined index: usevideo in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 145
+[05-Nov-2016 23:20:18 US/Eastern] PHP Notice:  Undefined index: image in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 174
+[05-Nov-2016 23:20:18 US/Eastern] PHP Notice:  Undefined index: thumbnail in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 178
+[05-Nov-2016 23:20:18 US/Eastern] PHP Notice:  Undefined index: image in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 180
+[05-Nov-2016 23:20:18 US/Eastern] PHP Notice:  Undefined index: duration in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 65
+[05-Nov-2016 23:20:18 US/Eastern] PHP Notice:  Undefined index: transition in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 66
+[05-Nov-2016 23:20:18 US/Eastern] PHP Notice:  Undefined index: slot in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 67
+[05-Nov-2016 23:20:36 US/Eastern] PHP Fatal error:  Uncaught  --> Smarty: unable to write file /home/alejandro1711/public_html/soygarota/cache/smarty/cache/productcomments/1/1/1/21/3/6c/61/85/6c61853037e6aa2372b127d2abd555963c7cfaf2.productcomments_reviews.tpl.php <-- 
+  thrown in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_write_file.php on line 74
+[05-Nov-2016 23:20:37 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 64
+[05-Nov-2016 23:20:37 US/Eastern] PHP Notice:  Undefined variable: sliders in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 69
+[05-Nov-2016 23:20:37 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 71
+[05-Nov-2016 23:20:37 US/Eastern] PHP Notice:  Undefined index: video in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 75
+[05-Nov-2016 23:20:37 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 77
+[05-Nov-2016 23:20:37 US/Eastern] PHP Notice:  Undefined index: layers in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 81
+[05-Nov-2016 23:20:37 US/Eastern] PHP Warning:  Invalid argument supplied for foreach() in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 83
+[05-Nov-2016 23:20:37 US/Eastern] PHP Notice:  Undefined index: enable_link in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 134
+[05-Nov-2016 23:20:37 US/Eastern] PHP Notice:  Undefined index: delay in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 141
+[05-Nov-2016 23:20:37 US/Eastern] PHP Notice:  Undefined index: usevideo in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 145
+[05-Nov-2016 23:20:37 US/Eastern] PHP Notice:  Undefined index: usevideo in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 145
+[05-Nov-2016 23:20:37 US/Eastern] PHP Notice:  Undefined index: image in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 174
+[05-Nov-2016 23:20:37 US/Eastern] PHP Notice:  Undefined index: thumbnail in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 178
+[05-Nov-2016 23:20:37 US/Eastern] PHP Notice:  Undefined index: image in /home/alejandro1711/public_html/soygarota/modules/leosliderlayer/controllers/front/preview.php on line 180
+[05-Nov-2016 23:20:37 US/Eastern] PHP Notice:  Undefined index: duration in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 65
+[05-Nov-2016 23:20:37 US/Eastern] PHP Notice:  Undefined index: transition in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 66
+[05-Nov-2016 23:20:37 US/Eastern] PHP Notice:  Undefined index: slot in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_templatebase.php(157) : eval()'d code on line 67
+[05-Nov-2016 23:44:45 US/Eastern] PHP Fatal error:  Uncaught  --> Smarty: unable to write file /home/alejandro1711/public_html/soygarota/cache/smarty/compile/d6/9e/7b/d69e7b7bca6f5a85f939d97921fb8b2f08e19093.file.blockwishlist_top.tpl.php <-- 
+  thrown in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_write_file.php on line 74
+[05-Nov-2016 23:44:47 US/Eastern] PHP Fatal error:  Uncaught  --> Smarty: unable to write file /home/alejandro1711/public_html/soygarota/cache/smarty/compile/ff/d0/f7/ffd0f7572ec85d40acdabc2feba97012fed616b3.file.products.tpl.php <-- 
+  thrown in /home/alejandro1711/public_html/soygarota/tools/smarty/sysplugins/smarty_internal_write_file.php on line 74

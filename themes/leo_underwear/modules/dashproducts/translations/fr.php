@@ -1,0 +1,37 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_2ea989f83006e233627987293f4bde0a'] = 'Nom du client';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_068f80c7519d0528fb08e82137a72131'] = 'Produits';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_96b0141273eabab320119c467cdcaf17'] = 'Total';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_44749712dbec183e983dcd78a7736c41'] = 'Date';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_3ec365dd533ddb7ef3d1c111186ce872'] = 'Détails';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_be53a0541a6d36f6ecb879fa2c584b08'] = 'Image';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_deb10517653c255364175796ace3553f'] = 'Produit';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_3adbdb3ac060038aa0e6e6c138ef9873'] = 'Catégorie';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_2aed3d711270a6ed67d21ec2d7cd4af8'] = 'Total des ventes';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_11ff9f68afb6b8b5b8eda218d7c83a65'] = 'Ventes';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_9e79098315622e58529d664b9a8b3cf8'] = 'Bénéfice net';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_ed4832a84ee072b00a6740f657183598'] = 'Vues';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_2c04f1ad7694378897b98624780327ff'] = 'Ajouté au panier';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_ce4ee01637f4279d02d0f232459dc9a4'] = 'Acheté';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_37be07209f53a5d636d5c904ca9ae64c'] = 'Pourcentage';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_1eb18ea1d018abef5759cef60ddc289b'] = 'Vous devez activer l\'option \"Enregistrer pages vues globales\" de la \"data mining pour les statistiques\" module pour afficher les produits les plus consultés, ou utiliser le module Google Analytics.';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_cf5f3091e30dee6597885d8c0e0c357f'] = 'Terme';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_13348442cc6a27032d2b4aa28b75a5d3'] = 'Recherche';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_fd69c5cf902969e6fb71d043085ddee6'] = 'Résultats';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_38fb7d24e0d60a048f540ecb18e13376'] = '   Enregistrer   ';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_ea4788705e6873b424c65e91c2846b19'] = 'Annuler';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_85bf7474324d7d02725e4dca586afcd9'] = 'Nombre de «commandes récentes\" pour afficher';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_735b8c7f6d50b4c6f818deeab3cdea4a'] = 'Nombre de \"meilleures ventes\" pour afficher';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_14d24dddc4c67abf8364b980b2ccd5a2'] = 'Nombre de \"Les plus populaires\" pour afficher';
+$_MODULE['<{dashproducts}leo_underwear>dashproducts_f1ee1eaab342241138d45f35f4d8466a'] = 'Nombre de \"Top des recherches\" pour afficher';
+$_MODULE['<{dashproducts}leo_underwear>dashboard_zone_two_3e361ce73ecabd6524af286d55809ed7'] = 'Produits et ventes';
+$_MODULE['<{dashproducts}leo_underwear>dashboard_zone_two_254f642527b45bc260048e30704edb39'] = 'Configuration';
+$_MODULE['<{dashproducts}leo_underwear>dashboard_zone_two_fd3458547ef9c3a8bd0e1e1b4ef2b4dd'] = 'Dernières commandes';
+$_MODULE['<{dashproducts}leo_underwear>dashboard_zone_two_d7b2933ba512ada478c97fa43dd7ebe6'] = 'Meilleures ventes';
+$_MODULE['<{dashproducts}leo_underwear>dashboard_zone_two_be5006eb5af9ab6dbca803f8d3065bbc'] = 'Les plus vues';
+$_MODULE['<{dashproducts}leo_underwear>dashboard_zone_two_1eb5e5713d7363e921dd7f5500b6d212'] = 'Top des recherches';
+$_MODULE['<{dashproducts}leo_underwear>dashboard_zone_two_5da618e8e4b89c66fe86e32cdafde142'] = 'À partir de';
+$_MODULE['<{dashproducts}leo_underwear>dashboard_zone_two_01b6e20344b68835c5ed1ddedf20d531'] = 'à';

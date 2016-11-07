@@ -1,0 +1,96 @@
+.product-block {
+    &:hover{
+        &:after{
+            background: $theme-color-default;
+            width: 100%;
+        }
+        .box-button{
+            > div{
+                a{
+                    visibility: visible;
+                    @include opacity(1);
+                }       
+            }
+        }    
+    }
+}
+.effect {    
+    display: inline;
+    a{
+        
+        &:before{
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 0;
+            margin: auto;
+            background-color: rgba(255, 255, 255, 0.1);
+            @include transition (all 0.3s ease-out 0s);
+        }
+        &:after{
+            content: "";
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            background-color: rgba(255, 255, 255, 0.1);
+            @include transition (all 0.3s ease-out 0s);
+        }
+        &:hover:before,
+        &:hover:after{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+//effect widget-html
+.widget-html{
+    .one-half{
+        @include rtl-float-left();
+        position: relative;
+        width: 100%;
+        .sub-container.center{
+            width: 100%;
+            overflow: hidden;
+            img{
+                transform: scale(1);
+                @include transition(all 0.9s ease 0s);
+                overflow: hidden;
+                &:hover{
+                    @include opacity(0.8);
+                    transform: scale(1.08);
+                    @include transition(all 0.9s ease 0s);
+                }
+            }
+        }
+    }
+}
+
+.ImageWrapper {display: block;overflow: hidden;position: relative;}
+/*  =============================================
+Button Layout and Color Scheme
+============================================= */
+.WhiteRounded {background-color: transparent; display: inline-block !important;float: none;font-size: 14px;font-weight: normal;text-align: center;-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;-o-border-radius: 0;border-radius:0;}
+.WhiteRounded > a {color: #222222;display: block;font-weight: normal;}
+.RedRounded {background-color: #D8322B;border: medium none;display: inline-block !important;float: none !important;font-size: 14px;font-weight: normal;height: 40px;line-height: 40px;margin: 0 2px;text-align: center;width: 40px;-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;-o-border-radius:0;border-radius:0;}
+.RedRounded > a {color: #FFFFFF;display: block;font-weight: normal;}
+.BlackRounded {background-color: #222222;border: medium none;display: inline-block !important;float: none !important;font-size: 14px;font-weight: normal;height: 40px;line-height: 40px;margin: 0 2px;text-align: center;width: 40px;-webkit-border-radius: 50%;-moz-border-radius: 50%;-ms-border-radius: 50%;-o-border-radius: 50%;border-radius: 50%;-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.5), inset 0 0 2px rgba(0, 0, 0, .1);-moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.5), inset 0 0 2px rgba(0, 0, 0, .1);-ms-box-shadow: 0 0 1px rgba(0, 0, 0, 0.5), inset 0 0 2px rgba(0, 0, 0, .1);-o-box-shadow: 0 0 1px rgba(0, 0, 0, 0.5), inset 0 0 2px rgba(0, 0, 0, .1);box-shadow: 0 0 1px rgba(0, 0, 0, 0.5), inset 0 0 2px rgba(0, 0, 0, .1);}
+.BlackRounded > a {color: #ffffff;display: block;font-weight: normal;}
+.WhiteHollowRounded {border: 1px solid #ffffff;display: inline-block !important;float: none !important;font-size: 14px;font-weight: normal;height: 40px;line-height: 40px;margin: 0 2px;text-align: center;width: 40px;-webkit-border-radius: 50%;-moz-border-radius: 50%;-ms-border-radius: 50%;-o-border-radius: 50%;border-radius: 50%;}
+.WhiteHollowRounded > a {color: #ffffff;display: block;font-weight: normal;}
+.BlackHollowRounded {border: 1px solid #222222;display: inline-block !important;float: none !important;font-size: 14px;font-weight: normal;height: 40px;line-height: 40px;margin: 0 2px;text-align: center;width: 40px;-webkit-border-radius: 50%;-moz-border-radius: 50%;-ms-border-radius: 50%;-o-border-radius: 50%;border-radius: 50%;}
+.BlackHollowRounded > a {color: #222222;display: block;font-weight: normal;}
+.WhiteSquare {background-color: #ffffff;border: medium none;display: inline-block !important;float: none !important;font-size: 14px;font-weight: normal;height: 40px;line-height: 40px;margin: 0 2px;text-align: center;width: 40px;-webkit-border-radius: 4px 4px 4px;-moz-border-radius: 4px 4px 4px;-ms-border-radius: 4px 4px 4px;-o-border-radius: 4px 4px 4px;border-radius: 4px 4px 4px;-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.5), inset 0 0 2px rgba(0, 0, 0, .1);-moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.5), inset 0 0 2px rgba(0, 0, 0, .1);-ms-box-shadow: 0 0 1px rgba(0, 0, 0, 0.5), inset 0 0 2px rgba(0, 0, 0, .1);-o-box-shadow: 0 0 1px rgba(0, 0, 0, 0.5), inset 0 0 2px rgba(0, 0, 0, .1);box-shadow: 0 0 1px rgba(0, 0, 0, 0.5), inset 0 0 2px rgba(0, 0, 0, .1);}
+.WhiteSquare > a {color: #222222;display: block;font-weight: normal;}
+.BlackSquare {background-color: #222222;border: medium none;display: inline-block !important;float: none !important;font-size: 14px;font-weight: normal;height: 40px;line-height: 40px;margin: 0 2px;text-align: center;width: 40px;-webkit-border-radius: 4px 4px 4px;-moz-border-radius: 4px 4px 4px;-ms-border-radius: 4px 4px 4px;-o-border-radius: 4px 4px 4px;border-radius: 4px 4px 4px;-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.5), inset 0 0 2px rgba(0, 0, 0, .1);-moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.5), inset 0 0 2px rgba(0, 0, 0, .1);-ms-box-shadow: 0 0 1px rgba(0, 0, 0, 0.5), inset 0 0 2px rgba(0, 0, 0, .1);-o-box-shadow: 0 0 1px rgba(0, 0, 0, 0.5), inset 0 0 2px rgba(0, 0, 0, .1);box-shadow: 0 0 1px rgba(0, 0, 0, 0.5), inset 0 0 2px rgba(0, 0, 0, .1);}
+.BlackSquare > a {color: #ffffff;display: block;font-weight: normal;}
+.WhiteHollowSquare {border: 1px solid #ffffff;display: inline-block !important;float: none !important;font-size: 14px;font-weight: normal;height: 40px;line-height: 40px;margin: 0 2px;text-align: center;width: 40px;-webkit-border-radius: 4px 4px 4px;-moz-border-radius: 4px 4px 4px;-ms-border-radius: 4px 4px 4px;-o-border-radius: 4px 4px 4px;border-radius: 4px 4px 4px;}
+.WhiteHollowSquare > a {color: #ffffff;display: block;font-weight: normal;}
+.BlackHollowSquare {border: 1px solid #222222;display: inline-block !important;float: none !important;font-size: 14px;font-weight: normal;height: 40px;line-height: 40px;margin: 0 2px;text-align: center;width: 40px;-webkit-border-radius: 4px 4px 4px;-moz-border-radius: 4px 4px 4px;-ms-border-radius: 4px 4px 4px;-o-border-radius: 4px 4px 4px;border-radius: 4px 4px 4px;}
+.BlackHollowSquare > a {color: #222222;display: block;font-weight: normal;}
+.VisibleButtons {margin: 0;position: absolute;text-align: center;width: 100%;top: 50%;margin-top: -20px;}
+.VisibleImageOverlay {position: absolute;background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);width: 100%;height: 100%;top: 0;left: 0;opacity: .6;visibility: visible;}
+

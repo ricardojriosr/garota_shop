@@ -1,0 +1,183 @@
+@import "compass";
+@import "theme_variables";
+
+
+$link-hover-color: 					#000;
+
+$theme-color-default: 				#000;
+
+$block-module-highlighted-bg:       #000;
+$search-icon-color:                 #000;
+$contact-icon-hover-bg:             #000;
+$headermain-color-hover:            #000; 
+$topbar-link-hover-color:           #000;
+
+$breadcrumb-active-color:           #000;
+
+$product-deals-link-hover-color:    #000;
+$product-icon-color:                #000;
+$product-icon-bg-hover-color:       #000;
+$product-label-new-bg:              #000;
+$product-label-special-bg:          #000;
+$button-addtocart-bg-hover:         #000;
+$button-addtocart-border-2:         #000;
+$product-name-hover-color:          #fff;
+
+$megamenu-link-hover-color:         #000;
+$megamenu-name-hover-color:         #000;
+$megamenu-sub-link-hover-color:     #fff;
+$megamenu-link-color:               #000;
+
+
+$vertical-menu-link-hover-color:    #000;
+$vertical-menu-link-hover:          #000;
+
+$footer-top-color-hover:			      #000;
+$footer-center-color-hover:			    #000;
+$footer-bottom-color-hover:			    #000;
+$footer-nav-color-hover:			      #000;
+$power-link-color:                  #000;
+$footer-center-color:               #666666;
+
+$body-bg:                           #fff;
+$footer-bg:                         #fff;
+$footer-bottom-outside-bg:          #fff;
+$block-module-content-bg:           #fff;
+$topbar-border:                     1px solid #000;
+$text-color:                        #666666;
+$border-color:                      #000;
+$product-name-color:                #000;
+$product-price-color:               #da5050;
+$footer-bottom-bg:                  #fff;
+$footer-bottom-color:               #000;
+$theme-color-secondary:             #000;
+$footer-center-outside-border:		2px solid $black;
+$product-border-color:              #efefef;
+$description-color:                 #000;
+$base-text-color:                   #000;
+$base-border-color:                 #000;
+$cart-icon-bg:                      #000;
+$block-module-heading-color:        #000;
+$block-module-footer-heading-color: #da5050;
+$block-module-heading-bg:           #fff;
+$cart-heading-color:                #000;
+$footer-nav-bg:                     #fff;
+
+$image-theme-base-path: "../../../img/white/";
+
+@import "../_skin";
+
+.widget{
+  .widget-html{
+    .box-outer{
+      .reassurances-center {
+        .description{
+            h4{
+                color: $black;
+            }
+        }
+        .icon-free-shipping{
+          background: url("#{$image-theme-base-path}icon-free-shipping.png") no-repeat 0 0 transparent; 
+        }
+        .icon-return{
+          background: url("#{$image-theme-base-path}icon-return.png") no-repeat 0 0 transparent; 
+        }
+        .icon_membership{
+          background: url("#{$image-theme-base-path}icon_membership.png") no-repeat 0 0 transparent; 
+        }
+        &:hover{
+          color: $theme-color-default;
+          cursor: pointer;
+          p{
+            color: $theme-color-default;
+          }
+        }
+      }
+    }  
+  }
+}
+#cart{        
+    .title-cart{
+        &:before{
+            background-color: $cart-icon-bg;
+        }
+    }
+}
+/*
+#header_logo{
+	a{
+		background: url("#{$image-theme-base-path}logo.png") no-repeat 0 0 transparent; 
+		width: 200px;
+		height: 67px;
+		display: inline-block;
+		img{
+			display: none;
+		}
+	}
+}
+.#{$block-prefix}-highlighted {
+  	.list-block{
+        li{
+            a{
+               color: $black;
+            }
+        }
+    }
+}
+*/
+.widget-html {
+   .block_content{
+     .logo-ft{
+        background: url("#{$image-theme-base-path}logo.png") no-repeat 0 0 transparent; 
+        width: 200px;
+        height: 67px;
+        display: inline-block;
+         img{
+          display: none;
+         }
+     }
+  }
+}
+.nav-tabs.page-product-heading li a{
+    color: $black;
+}
+#social_block {
+  ul {
+    li {
+      a {
+        &:before {
+          color: #666666;
+        }
+      }
+    }
+  }
+}
+.widget-html .block_content address strong{
+    color: $black;
+}
+
+#footernav-bottom{
+  #newsletter_block_left{
+   &.block{    
+        .title_block{
+          color: $black;   
+      }
+      input.btn{
+        background: $black;
+        border: 1px solid $black;
+      }
+    }
+  }
+}
+.box-services{
+   .iconbox{
+      border: 2px solid $black;
+      .fa{
+          color:#000;
+        }
+    }
+   .media-body .h4{
+    color: $black;
+   }
+}
+

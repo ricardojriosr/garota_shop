@@ -1,0 +1,471 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/** CHECKOUT BY STEP */
+/*  
+ * LAYOUT VARIABLES 
+ */
+.widget .widget-html .free-ship {
+  color: #d84e4e;
+}
+.widget .widget-html .price-html {
+  color: #e34c4c;
+}
+.widget .widget-html .box-outer {
+  text-align: center;
+}
+.widget .widget-html .box-outer .reassurances-center {
+  padding: 20px 0px 0px 0px;
+  display: inline-block;
+}
+.widget .widget-html .box-outer .reassurances-center .icon-name {
+  padding-top: 30px;
+  margin-right: 10px;
+  float: left;
+}
+.rtl .widget .widget-html .box-outer .reassurances-center .icon-name {
+  margin-left: 10px;
+  margin-right: inherit;
+}
+.rtl .widget .widget-html .box-outer .reassurances-center .icon-name {
+  float: right;
+}
+.widget .widget-html .box-outer .reassurances-center .icon-free-shipping {
+  background: url("images/icon-free-shipping.png") no-repeat 0 0;
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+}
+.widget .widget-html .box-outer .reassurances-center .icon-return {
+  background: url("images/icon-return.png") no-repeat 0 0;
+  width: 39px;
+  height: 38px;
+  display: inline-block;
+  padding-top: 25px;
+}
+.widget .widget-html .box-outer .reassurances-center .icon_membership {
+  background: url("images/icon_membership.png") no-repeat 0 0;
+  width: 41px;
+  height: 51px;
+  display: inline-block;
+}
+.widget .widget-html .box-outer .reassurances-center .description {
+  display: inline-block;
+  text-align: left;
+  float: left;
+}
+.rtl .widget .widget-html .box-outer .reassurances-center .description {
+  text-align: right;
+}
+.rtl .widget .widget-html .box-outer .reassurances-center .description {
+  float: right;
+}
+.widget .widget-html .box-outer .reassurances-center .description h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: "brandon_bold", sans-serif;
+  display: inline-block;
+  font-weight: bold;
+  color: white;
+  font-weight: normal;
+  padding-right: 5px;
+}
+.rtl .widget .widget-html .box-outer .reassurances-center .description h4 {
+  padding-left: 5px;
+  padding-right: inherit;
+}
+.widget .widget-html .box-outer .reassurances-center .description p {
+  font-size: 12px;
+  color: #858585;
+}
+.widget .widget-html .box-outer .reassurances-center:hover {
+  color: #d84e4e;
+  cursor: pointer;
+}
+.widget .widget-html .box-outer .reassurances-center:hover p {
+  color: #d84e4e;
+}
+
+.featured-product .block {
+  margin: 0px;
+}
+
+#topbar .widget .widget-html p {
+  padding: 17px 0;
+  margin-bottom: 0;
+}
+
+.widget-html .widget-title-sub {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #999999;
+  font-family: "brandon_bold", sans-serif;
+}
+
+.banner .row {
+  margin: 0;
+}
+.banner .row .widget {
+  padding: 0;
+}
+.banner .row .widget img {
+  width: 100%;
+}
+
+.footer-support {
+  margin-top: 30px;
+}
+
+.block .widget-tabs {
+  position: relative;
+  text-transform: uppercase;
+  font-family: "brandon_light", sans-serif;
+  padding: 20px 0 30px;
+  font-size: 14px;
+  margin: 0 0 20px;
+  text-align: center;
+}
+.block .widget-tabs:before {
+  background: url("images/bg-title-block-widget.png") no-repeat 0 0;
+  content: "";
+  position: absolute;
+  width: 75px;
+  height: 11px;
+  bottom: 0;
+  left: 50%;
+  margin-left: -37px;
+}
+.rtl .block .widget-tabs:before {
+  right: 50%;
+  left: auto;
+}
+.rtl .block .widget-tabs:before {
+  margin-right: -37px;
+  margin-left: inherit;
+}
+.block .widget-tabs li {
+  position: relative;
+  padding: 0 20px 0 20px;
+}
+.rtl .block .widget-tabs li {
+  padding: 0 20px 0 20px;
+}
+.block .widget-tabs li a {
+  color: #b9b9b9;
+}
+.block .widget-tabs li:first-child {
+  border: none;
+  padding-left: 0;
+}
+.rtl .block .widget-tabs li:first-child {
+  padding-right: 0;
+  padding-left: inherit;
+}
+.block .widget-tabs li:first-child.active:before, .block .widget-tabs li:first-child:hover:before {
+  left: 0;
+}
+.rtl .block .widget-tabs li:first-child.active:before, .rtl .block .widget-tabs li:first-child:hover:before {
+  right: 0;
+  left: auto;
+}
+.block .widget-tabs li.active a, .block .widget-tabs li:hover a {
+  color: #222;
+}
+
+.widget.slide_fullwidth {
+  background-image: url("images/bg_slide.png");
+  background-attachment: scroll;
+  background-size: auto;
+  background-position: 50% 0%;
+  background-repeat: repeat-x;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 0px 1000px;
+  margin-left: -1000px;
+  overflow: hidden;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  float: none;
+}
+.rtl .widget.slide_fullwidth {
+  margin-right: -1000px;
+  margin-left: inherit;
+}
+
+.footer-center .widget.html-contact .widget-html {
+  border-left: 1px solid #333333;
+}
+.rtl .footer-center .widget.html-contact .widget-html {
+  border-right: 1px solid #333333;
+  border-left: inherit;
+}
+
+.openning-time .widget-html {
+  border-top: 1px solid #555555;
+  margin-right: 20px;
+}
+.rtl .openning-time .widget-html {
+  margin-left: 20px;
+  margin-right: inherit;
+}
+
+.footer-line {
+  border-top: 1px solid #555555;
+}
+.footer-line .bullet li {
+  display: block;
+  position: relative;
+  margin-right: 30px;
+  line-height: 18px;
+  padding-right: 20px;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+.rtl .footer-line .bullet li {
+  margin-left: 30px;
+  margin-right: inherit;
+}
+.rtl .footer-line .bullet li {
+  padding-left: 20px;
+  padding-right: inherit;
+}
+.footer-line .bullet li a {
+  padding-left: 0px;
+  font-size: 13px;
+}
+.rtl .footer-line .bullet li a {
+  padding-right: 0px;
+  padding-left: inherit;
+}
+.footer-line .bullet li a:before {
+  display: block;
+  content: "\f178";
+  font-family: "FontAwesome";
+  font-size: 12px;
+  position: absolute;
+  right: 0px;
+  top: 8px;
+}
+.rtl .footer-line .bullet li a:before {
+  left: 0px;
+  right: auto;
+}
+.footer-line .bullet li:hover {
+  padding-left: 10px;
+  font-style: italic;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+.rtl .footer-line .bullet li:hover {
+  padding-right: 10px;
+  padding-left: inherit;
+}
+
+.footer-contact .widget-html {
+  border-top: 1px solid #555555;
+  margin-left: 20px;
+}
+.rtl .footer-contact .widget-html {
+  margin-right: 20px;
+  margin-left: inherit;
+}
+
+.box-services .iconbox {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  border: 2px solid white;
+  width: 35px;
+  height: 35px;
+  margin-right: 20px;
+}
+.rtl .box-services .iconbox {
+  margin-left: 20px;
+  margin-right: inherit;
+}
+.box-services .iconbox .fa {
+  font-size: 20px;
+  padding: 8px;
+  color: white;
+}
+.box-services .media-body {
+  padding-top: 5px;
+}
+.box-services .media-body .h4 {
+  font-family: "brandon_light", sans-serif;
+  color: white;
+}
+
+.widget-html .block_content address {
+  line-height: 28px;
+}
+.widget-html .block_content address strong {
+  color: white;
+}
+.widget-html .block_content .logo-ft {
+  padding-top: 20px;
+}
+.widget-html .block_content .blogs .caption .date-time {
+  font-style: italic;
+}
+.widget-html .block_content .blogs .caption .blog-title {
+  font-size: 13px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.widget-html .block_content .blogs .caption .link {
+  font-style: italic;
+  font-size: 11px;
+  position: relative;
+}
+.widget-html .block_content .blogs .caption .link:before {
+  display: block;
+  content: "\f178";
+  font-family: "FontAwesome";
+  font-size: 12px;
+  position: absolute;
+  right: -20px;
+  top: 2px;
+}
+.rtl .widget-html .block_content .blogs .caption .link:before {
+  left: -20px;
+  right: auto;
+}
+
+.Special-product {
+  padding-top: 40px;
+}
+
+.Home-product .title_block {
+  background: transparent;
+  position: relative;
+  text-transform: uppercase;
+  font-family: "brandon_light", sans-serif;
+  padding: 30px 0px 30px 0px;
+  margin: 0 0 20px;
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.Home-product .title_block:before {
+  position: absolute;
+  content: "";
+  width: 44%;
+  background-color: #555555;
+  left: 0px;
+  top: 38px;
+  z-index: 99;
+  height: 1px;
+}
+.rtl .Home-product .title_block:before {
+  right: 0px;
+  left: auto;
+}
+.Home-product .title_block:after {
+  position: absolute;
+  content: "";
+  width: 44%;
+  background-color: #555555;
+  right: 0px;
+  top: 38px;
+  z-index: 99;
+  height: 1px;
+}
+.rtl .Home-product .title_block:after {
+  left: 0px;
+  right: auto;
+}
+.Home-product .title_block > div {
+  background: #222;
+  position: relative;
+  display: inline-block;
+  padding: 0 20px;
+  z-index: 100;
+}
+
+#slider_row {
+  border-bottom: 1px solid #555555;
+}
+#slider_row .block {
+  margin: 0px;
+}
+
+.widget-manufacture {
+  margin-top: 10px;
+}
+.widget-manufacture .carousel-control {
+  cursor: pointer;
+  height: 35px;
+  position: absolute;
+  top: 53px !important;
+  width: 35px;
+  z-index: 100;
+  text-indent: -9999px;
+}
+.widget-manufacture .carousel-control.left {
+  left: 9px;
+  background: url("images/button-previous.png") no-repeat 1px -48px transparent;
+}
+.rtl .widget-manufacture .carousel-control.left {
+  right: 9px;
+  left: auto;
+}
+.widget-manufacture .carousel-control.right {
+  right: 9px;
+  right: 9px;
+  background: url("images/button-next.png") no-repeat 1px 0px transparent;
+  left: auto;
+}
+.rtl .widget-manufacture .carousel-control.right {
+  left: 9px;
+  right: auto;
+}
+.widget-manufacture .logo-manu {
+  text-align: center;
+  padding-bottom: 20px;
+  position: relative;
+  -webkit-transform: translateZ(0px);
+  -moz-transform: translateZ(0px);
+  -ms-transform: translateZ(0px);
+  -o-transform: translateZ(0px);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  transition-property: transform;
+}
+.widget-manufacture .logo-manu:hover {
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+}
+.widget-manufacture .logo-manu img {
+  display: inherit;
+}
+
+.widget-html .img-footer {
+  position: absolute;
+  top: -31px;
+  right: 0px;
+}
+.rtl .widget-html .img-footer {
+  left: 0px;
+  right: auto;
+}

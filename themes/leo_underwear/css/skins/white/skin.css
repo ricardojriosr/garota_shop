@@ -1,0 +1,703 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/** CHECKOUT BY STEP */
+/*  
+ * LAYOUT VARIABLES 
+ */
+a {
+  color: black;
+}
+a:hover, a:focus {
+  color: black;
+}
+
+body {
+  background-color: white;
+  color: #666666;
+}
+
+#topbar {
+  border-bottom: 1px solid black;
+}
+#topbar .container > .inner {
+  background: transparent;
+  color: black;
+}
+#topbar .container > .inner a {
+  color: #999999;
+}
+#topbar .container > .inner a:hover {
+  color: black;
+}
+#topbar .links-outline a {
+  color: black;
+}
+
+@media (max-width: 991px) {
+  #topbar .popup-title {
+    border: 1px solid black;
+  }
+  #topbar .header_user_info .dropdown-toggle {
+    border: 1px solid black;
+  }
+}
+.btn-outline-inverse {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+.btn-outline-inverse:hover, .btn-outline-inverse:focus, .btn-outline-inverse:active, .btn-outline-inverse.active {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+.open .btn-outline-inverse.dropdown-toggle {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+.btn-outline-inverse:active, .btn-outline-inverse.active {
+  background-image: none;
+}
+.open .btn-outline-inverse.dropdown-toggle {
+  background-image: none;
+}
+.btn-outline-inverse.disabled, .btn-outline-inverse.disabled:hover, .btn-outline-inverse.disabled:focus, .btn-outline-inverse.disabled:active, .btn-outline-inverse.disabled.active, .btn-outline-inverse[disabled], .btn-outline-inverse[disabled]:hover, .btn-outline-inverse[disabled]:focus, .btn-outline-inverse[disabled]:active, .btn-outline-inverse[disabled].active, fieldset[disabled] .btn-outline-inverse, fieldset[disabled] .btn-outline-inverse:hover, fieldset[disabled] .btn-outline-inverse:focus, fieldset[disabled] .btn-outline-inverse:active, fieldset[disabled] .btn-outline-inverse.active {
+  background-color: black;
+  border-color: black;
+}
+.btn-outline-inverse .badge {
+  color: black;
+  background-color: white;
+}
+
+.btn-outline {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+.open .btn-outline.dropdown-toggle {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+.btn-outline:active, .btn-outline.active {
+  background-image: none;
+}
+.open .btn-outline.dropdown-toggle {
+  background-image: none;
+}
+.btn-outline.disabled, .btn-outline.disabled:hover, .btn-outline.disabled:focus, .btn-outline.disabled:active, .btn-outline.disabled.active, .btn-outline[disabled], .btn-outline[disabled]:hover, .btn-outline[disabled]:focus, .btn-outline[disabled]:active, .btn-outline[disabled].active, fieldset[disabled] .btn-outline, fieldset[disabled] .btn-outline:hover, fieldset[disabled] .btn-outline:focus, fieldset[disabled] .btn-outline:active, fieldset[disabled] .btn-outline.active {
+  background-color: black;
+  border-color: black;
+}
+.btn-outline .badge {
+  color: black;
+  background-color: white;
+}
+
+.block-default {
+  border-color: #dddddd;
+}
+.block-default .title_block {
+  color: #333333;
+  background-color: whitesmoke;
+  border-color: #dddddd;
+}
+.block-default .title_block a {
+  color: #333333;
+}
+.block-default .title_block + .block-collapse .block_content {
+  border-top-color: #dddddd;
+}
+.block-default > .block-footer + .block-collapse .block-body {
+  border-bottom-color: #dddddd;
+}
+
+.block-primary {
+  border-color: #428bca;
+}
+.block-primary .title_block {
+  color: white;
+  background-color: #428bca;
+  border-color: #428bca;
+}
+.block-primary .title_block a {
+  color: white;
+}
+.block-primary .title_block + .block-collapse .block_content {
+  border-top-color: #428bca;
+}
+.block-primary > .block-footer + .block-collapse .block-body {
+  border-bottom-color: #428bca;
+}
+
+.block-success {
+  border-color: #d6e9c6;
+}
+.block-success .title_block {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+.block-success .title_block a {
+  color: #3c763d;
+}
+.block-success .title_block + .block-collapse .block_content {
+  border-top-color: #d6e9c6;
+}
+.block-success > .block-footer + .block-collapse .block-body {
+  border-bottom-color: #d6e9c6;
+}
+
+.block-info {
+  border-color: #bce8f1;
+}
+.block-info .title_block {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+.block-info .title_block a {
+  color: #31708f;
+}
+.block-info .title_block + .block-collapse .block_content {
+  border-top-color: #bce8f1;
+}
+.block-info > .block-footer + .block-collapse .block-body {
+  border-bottom-color: #bce8f1;
+}
+
+.block-warning {
+  border-color: #faebcc;
+}
+.block-warning .title_block {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+.block-warning .title_block a {
+  color: #8a6d3b;
+}
+.block-warning .title_block + .block-collapse .block_content {
+  border-top-color: #faebcc;
+}
+.block-warning > .block-footer + .block-collapse .block-body {
+  border-bottom-color: #faebcc;
+}
+
+.block-danger {
+  border-color: #ebccd1;
+}
+.block-danger .title_block {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+.block-danger .title_block a {
+  color: #a94442;
+}
+.block-danger .title_block + .block-collapse .block_content {
+  border-top-color: #ebccd1;
+}
+.block-danger > .block-footer + .block-collapse .block-body {
+  border-bottom-color: #ebccd1;
+}
+
+.block-highlighted {
+  border-color: #4e3131;
+}
+.block-highlighted .title_block {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+.block-highlighted .title_block a {
+  color: white;
+}
+.block-highlighted .title_block + .block-collapse .block_content {
+  border-top-color: #4e3131;
+}
+.block-highlighted > .block-footer + .block-collapse .block-body {
+  border-bottom-color: #4e3131;
+}
+
+.block .title_block {
+  color: black;
+}
+.block .title_block a {
+  color: black;
+}
+.block .block_content {
+  background: white;
+}
+
+#header-main .container > .inner {
+  background: white;
+  color: #999999;
+}
+#header-main .container > .inner a {
+  color: #999999;
+}
+#header-main .container > .inner a:hover {
+  color: black;
+}
+
+#leo-mainnav .container > .inner {
+  background: transparent;
+  color: #848484;
+}
+#leo-mainnav .container > .inner a {
+  color: #848484;
+}
+#leo-mainnav .container > .inner a:hover {
+  color: #da5050;
+}
+
+.footer-top .container > .inner {
+  background: white;
+  color: white;
+}
+.footer-top .container > .inner a {
+  color: white;
+}
+.footer-top .container > .inner a:hover {
+  color: black;
+}
+
+.footer-center .container > .inner {
+  background: transparent;
+  color: #666666;
+}
+.footer-center .container > .inner a {
+  color: #666666;
+}
+.footer-center .container > .inner a:hover {
+  color: black;
+}
+
+.footer-bottom .container > .inner {
+  background: white;
+  color: black;
+}
+.footer-bottom .container > .inner a {
+  color: black;
+}
+.footer-bottom .container > .inner a:hover {
+  color: black;
+}
+
+.footer-nav {
+  border-bottom: 10px solid black;
+}
+.footer-nav .container > .inner {
+  background: white;
+  color: #666666;
+}
+.footer-nav .container > .inner a {
+  color: #666666;
+}
+.footer-nav .container > .inner a:hover {
+  color: black;
+}
+
+/* block style in footer */
+.footer-container .block .title_block {
+  color: #da5050;
+}
+.footer-container .block .title_block a {
+  color: #da5050;
+}
+
+#powered {
+  border-top: 1px solid black;
+  color: #666666;
+}
+#powered span {
+  color: black;
+}
+
+.block .widget-tabs li.active a, .block .widget-tabs li:hover a {
+  color: black;
+}
+.block .widget-tabs li.active:before, .block .widget-tabs li:hover:before {
+  background-color: black;
+}
+
+.widget .widget-html .free-ship {
+  color: black;
+}
+.widget .widget-html .box-outer .reassurances-center:hover {
+  color: black;
+}
+.widget .widget-html .box-outer .reassurances-center:hover p {
+  color: black;
+}
+
+.content_sortPagiBar .display .selected a .fa {
+  color: black;
+}
+
+.breadcrumb {
+  color: black;
+}
+.breadcrumb a {
+  color: black;
+}
+.breadcrumb a:hover {
+  color: black;
+}
+
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+  border-color: black;
+  color: black;
+}
+
+.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
+  border-color: black;
+  color: black;
+}
+
+div.verticalmenu .navbar-nav > li > a:hover, div.verticalmenu .navbar-nav > li > a:focus {
+  color: black;
+}
+div.verticalmenu .navbar-nav > li > a:hover .menu-title, div.verticalmenu .navbar-nav > li > a:focus .menu-title {
+  color: black;
+}
+div.verticalmenu .navbar-nav > li:hover > a {
+  color: black;
+}
+div.verticalmenu .navbar-nav > li:hover .caret:before {
+  color: black;
+}
+div.verticalmenu ul li a:hover, div.verticalmenu ul li a:focus {
+  color: black;
+}
+div.verticalmenu ul li a:hover .menu-title, div.verticalmenu ul li a:focus .menu-title {
+  color: black;
+}
+div.verticalmenu .dropdown-menu ul li a:hover {
+  color: black;
+}
+
+#leo-mainnav {
+  border-top: 1px solid black;
+}
+
+.Home-product .title_block:before {
+  background-color: black;
+}
+.Home-product .title_block:after {
+  background-color: black;
+}
+
+#slider_row {
+  border-bottom: 1px solid black;
+}
+
+.product-block .name a {
+  color: black;
+}
+
+.price {
+  color: #da5050;
+}
+
+.navbar-header .navbar-toggle {
+  background: black;
+}
+
+.product-block:hover:after {
+  background-color: black;
+}
+
+.box-button > div a {
+  color: black;
+}
+.box-button > div a:hover {
+  background: black;
+}
+
+.leo-megamenu {
+  /* menu level 1 */
+  /* level 2 */
+}
+.leo-megamenu .navbar-nav > li > a {
+  color: black;
+}
+.leo-megamenu .navbar-nav > li > a:hover, .leo-megamenu .navbar-nav > li > a:focus, .leo-megamenu .navbar-nav > li > a:active {
+  color: black;
+}
+.leo-megamenu .navbar-nav > li.active > a, .leo-megamenu .navbar-nav > li:hover > a {
+  color: black;
+  border-right: 1px solid #555555;
+  border-left: 1px solid #555555;
+}
+.leo-megamenu .navbar-nav > li.active > a:before, .leo-megamenu .navbar-nav > li:hover > a:before {
+  background-color: black;
+}
+.leo-megamenu .navbar-nav > li:hover > .caret, .leo-megamenu .navbar-nav > li:active > .caret {
+  color: black;
+}
+.leo-megamenu .dropdown-menu li a:hover {
+  color: white;
+}
+.leo-megamenu .dropdown-menu li a:hover .fa {
+  color: white;
+}
+.leo-megamenu .dropdown:hover > a {
+  color: black;
+}
+.leo-megamenu .dropdown:hover > a .fa {
+  color: black;
+}
+
+.leo-widget .product-block .product-meta .name a:hover {
+  color: white;
+}
+
+.bannercontainer .tp-caption.big_orange {
+  color: black;
+}
+
+#off-canvas-nav .offcanvas-mainnav {
+  background-color: black;
+}
+
+.nav-tabs.page-product-heading li.active, .nav-tabs.page-product-heading li:hover {
+  background: white;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.nav-tabs.page-product-heading li:first-child {
+  border: none;
+}
+.nav-tabs.page-product-heading li:first-child.active, .nav-tabs.page-product-heading li:first-child:hover {
+  background: white;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  margin-bottom: -2px;
+}
+.nav-tabs.page-product-heading li a {
+  background: transparent;
+}
+
+#social_block ul li:hover a {
+  border-color: black;
+}
+#social_block ul li:hover a:before {
+  color: black;
+}
+#social_block ul li a {
+  border: 1px solid black;
+}
+#social_block ul li a:before {
+  font-family: "FontAwesome";
+  color: #da9898;
+}
+
+#footer {
+  background: white;
+}
+
+.footer-bottom {
+  background: white;
+}
+.footer-bottom .container > .inner {
+  background: white;
+  color: black;
+}
+.footer-bottom .container > .inner a {
+  color: black;
+}
+.footer-bottom .container > .inner a:hover {
+  color: black;
+}
+
+.openning-time .widget-html {
+  border-top: 1px solid black;
+}
+
+.footer-line {
+  border-top: 1px solid black;
+}
+
+.footer-contact .widget-html {
+  border-top: 1px solid black;
+}
+
+.footer-support {
+  color: #666666;
+}
+.footer-support .address {
+  color: #9c9c9c;
+}
+
+.footer-center {
+  border-top: 2px solid black;
+}
+
+#footnav {
+  border-top: 1px solid black;
+  background: white;
+}
+
+.sidebar .block .title_block {
+  background-color: black;
+}
+.sidebar .block .title_block a {
+  color: white;
+}
+.sidebar .leo-custom .block-heading {
+  color: #da5050;
+}
+.sidebar .product-block {
+  border-color: #efefef;
+}
+.sidebar .product-block .price {
+  color: black;
+}
+
+.pb-center-column #short_description_block {
+  color: black;
+}
+
+.more_info_block .tab-content {
+  border: 1px solid black;
+}
+
+.blockproductscategory .title_block:before {
+  background-color: black;
+}
+.blockproductscategory .title_block > div {
+  background: white;
+}
+
+#leo-paneltool {
+  color: #666666;
+}
+
+.buttons_bottom_block .btn-outline:hover {
+  background: transparent;
+}
+
+.box-wishlist-bottom .buttons_bottom_block {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+#cart .title-cart {
+  color: black;
+}
+
+.keep-header #header {
+  background: white;
+}
+
+.widget .widget-html .box-outer .reassurances-center .description h4 {
+  color: black;
+}
+.widget .widget-html .box-outer .reassurances-center .icon-free-shipping {
+  background: url("../../../img/white/icon-free-shipping.png") no-repeat 0 0 transparent;
+}
+.widget .widget-html .box-outer .reassurances-center .icon-return {
+  background: url("../../../img/white/icon-return.png") no-repeat 0 0 transparent;
+}
+.widget .widget-html .box-outer .reassurances-center .icon_membership {
+  background: url("../../../img/white/icon_membership.png") no-repeat 0 0 transparent;
+}
+.widget .widget-html .box-outer .reassurances-center:hover {
+  color: black;
+  cursor: pointer;
+}
+.widget .widget-html .box-outer .reassurances-center:hover p {
+  color: black;
+}
+
+#cart .title-cart:before {
+  background-color: black;
+}
+
+/*
+#header_logo{
+	a{
+		background: url("../../../img/white/logo.png") no-repeat 0 0 transparent; 
+		width: 200px;
+		height: 67px;
+		display: inline-block;
+		img{
+			display: none;
+		}
+	}
+}
+.block-highlighted {
+  	.list-block{
+        li{
+            a{
+               color: $black;
+            }
+        }
+    }
+}
+*/
+.widget-html .block_content .logo-ft {
+  background: url("../../../img/white/logo.png") no-repeat 0 0 transparent;
+  width: 200px;
+  height: 67px;
+  display: inline-block;
+}
+.widget-html .block_content .logo-ft img {
+  display: none;
+}
+
+.nav-tabs.page-product-heading li a {
+  color: black;
+}
+
+#social_block ul li a:before {
+  color: #666666;
+}
+
+.widget-html .block_content address strong {
+  color: black;
+}
+
+#footernav-bottom #newsletter_block_left.block .title_block {
+  color: black;
+}
+#footernav-bottom #newsletter_block_left.block input.btn {
+  background: black;
+  border: 1px solid black;
+}
+
+.box-services .iconbox {
+  border: 2px solid black;
+}
+.box-services .iconbox .fa {
+  color: #000;
+}
+.box-services .media-body .h4 {
+  color: black;
+}

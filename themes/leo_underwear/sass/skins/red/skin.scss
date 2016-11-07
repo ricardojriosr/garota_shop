@@ -1,0 +1,100 @@
+@import "compass";
+@import "theme_variables";
+
+
+$link-hover-color: 					#c72828;
+
+$theme-color-default: 				#c72828;
+
+$block-module-highlighted-bg:       #c72828;
+$search-icon-color:                 #c72828;
+$contact-icon-hover-bg:             #c72828;
+$headermain-color-hover:            #c72828; 
+$topbar-link-hover-color:           #c72828;
+
+$breadcrumb-active-color:           #c72828;
+
+$product-deals-link-hover-color:    #c72828;
+$product-icon-color:                #c72828;
+$product-icon-bg-hover-color:       #c72828;
+$product-label-new-bg:              #c72828;
+$product-label-special-bg:          #c72828;
+$button-addtocart-bg-hover:         #c72828;
+$button-addtocart-border-2:         #c72828;
+$product-name-hover-color:          #c72828;
+
+$megamenu-link-hover-color:         #fff;
+$megamenu-name-hover-color:         #c72828;
+$megamenu-sub-link-hover-color:     #c72828;
+
+
+$vertical-menu-link-hover-color:    #c72828;
+$vertical-menu-link-hover:          #c72828;
+
+$footer-top-color-hover:			#c72828;
+$footer-center-color-hover:			#c72828;
+$footer-bottom-color-hover:			#c72828;
+$footer-nav-color-hover:			#c72828;
+$power-link-color:                  #c72828;
+$footer-center-color:               #da9898;
+
+$body-bg:                           #510b0b;
+$footer-bg:                         #510b0b;
+$footer-bottom-outside-bg:          #510b0b;
+$block-module-content-bg:           #510b0b;
+$topbar-border:                     1px solid #000;
+$text-color:                        #d07a7a;
+$border-color:                      #000;
+$product-name-color:                #da9898;
+$footer-bottom-bg:                  #510b0b;
+$footer-bottom-color:               #da9898;
+$theme-color-secondary:             #000;
+$footer-center-outside-border:		2px solid $black;
+$product-border-color:              #6a3d3d;
+$description-color:                 #da9898;
+$base-text-color:                   #da9898;
+$base-border-color:                 #6a3d3d;
+$footer-nav-border:					1px solid $border-color;
+$megamenu-link-border:				1px solid #360b0b;
+$block-module-heading-bg:           #510b0b;
+$cart-heading-color:                #d07a7a;
+$footer-nav-bg:                     #3b0808;
+
+$image-theme-base-path: "../../../img/red/";
+
+@import "../_skin";
+
+
+#cart{        
+    .title-cart{
+        &:before{
+            background-color: $cart-icon-bg;
+        }
+    }
+}
+.content_sortPagiBar .display a{
+	background: transparent;
+}
+.subcategories{
+	background: transparent;
+	border: 1px solid #6a3d3d;
+}
+.comments_advices a{
+	color: $text-color;
+}
+/* Block newsletter footer */
+#footernav-bottom {
+	#newsletter_block_left {
+		h5 {
+			color: $black;
+		}
+		
+		.warning_inline {
+			color: #f13340; 
+		}
+		.newsletter-input {
+  			background: transparent;
+  		}
+  		
+	}
+}

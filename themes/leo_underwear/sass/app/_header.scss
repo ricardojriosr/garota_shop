@@ -1,0 +1,26 @@
+// header.scss
+
+
+.logo{
+	display: block;
+}
+
+/**************************************Header-default**********************************/
+
+.keep-header{
+	#header{
+		background: $body-bg;
+	}
+	#topbar{
+		&.hide-bar{
+			padding: 0px;
+			margin-top: -156px!important;
+			@include transition(all 0.6s ease 0s);
+		}
+	}
+	.leo-megamenu{
+		margin-bottom: 0px;
+	}
+}
+
+
