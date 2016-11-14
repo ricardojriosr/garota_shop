@@ -65,17 +65,9 @@
 				<section id="footernav" class="footer-nav">
 					<div class="container">
 						<div class="row">
-							{if isset($ENABLE_COPYRIGHT) && $ENABLE_COPYRIGHT == 1}
-										<div id="powered" class="col-sm-12 col-md-12 col-xs-12">
-										{if isset($CUSTOM_COPYRIGHT)&&!empty($CUSTOM_COPYRIGHT)}
-											{$CUSTOM_COPYRIGHT}
-										{else}
-											&copy; 2014 {l s='Powered by PrestaShop. All Rights Reserved.'} 
-										{/if}
-											{l s='Developed By'} <span>LeoTheme</span>
-									</div><!-- #poweredby -->
-								{/if}
-						
+							<div id="powered" class="col-sm-12 col-md-12 col-xs-12">
+								Desarrollado por Booming Up
+							</div><!-- #poweredby -->
 						</div>
 					</div>
 				</section>
