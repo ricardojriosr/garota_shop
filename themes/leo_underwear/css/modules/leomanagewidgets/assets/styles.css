@@ -479,3 +479,9 @@
 	background: white;
     color: black;
 }
+
+#leo-footer-bottom > div > div > div > div.widget.col-lg-2.col-md-2.col-sm-12.col-xs-12.col-sp-12.footer-line.animation_col_236,
+#thumbs_list_frame > li:nth-child(4)
+{
+  display: none !important;
+}
