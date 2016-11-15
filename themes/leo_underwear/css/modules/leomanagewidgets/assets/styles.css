@@ -498,6 +498,10 @@
   text-align: center;
   margin-left: 40%;
 }
+  .sidebar .block .title_block.active:after, #footer .footer-block .title_block.active:after,
+  .sidebar .block .title_block:after, #footer .footer-block .title_block:after{
+    top: 10px !important;
+  }
 }
 
 
@@ -513,5 +517,9 @@
   #social_block > div {
     text-align: center;
     margin-left: 40%;
+  }
+  .sidebar .block .title_block.active:after, #footer .footer-block .title_block.active:after,
+  .sidebar .block .title_block:after, #footer .footer-block .title_block:after{
+    top: 10px !important;
   }
 }
