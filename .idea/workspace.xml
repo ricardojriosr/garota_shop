@@ -45,8 +45,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/leo_underwear/css/modules/leomanagewidgets/assets/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.85833335">
-              <caret line="486" column="1" selection-start-line="486" selection-start-column="1" selection-end-line="486" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.51079136">
+              <caret line="498" column="19" selection-start-line="498" selection-start-column="19" selection-end-line="498" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -336,7 +336,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -620,8 +620,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/leo_underwear/css/modules/leomanagewidgets/assets/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85833335">
-          <caret line="486" column="1" selection-start-line="486" selection-start-column="1" selection-end-line="486" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.51079136">
+          <caret line="498" column="19" selection-start-line="498" selection-start-column="19" selection-end-line="498" selection-end-column="19" />
           <folding />
         </state>
       </provider>
