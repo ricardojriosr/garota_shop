@@ -340,10 +340,11 @@
 						</p>
 						<div class="box-cart-bottom">
 							<div{if (!$allow_oosp && $product->quantity <= 0) || !$product->available_for_order || (isset($restricted_country_mode) && $restricted_country_mode) || $PS_CATALOG_MODE} class="unvisible"{/if}>
-							<p id="add_to_cart" class="buttons_bottom_block no-print">
-								<button type="submit" name="Submit" class="exclusive btn btn-outline status-enable">
-									<span>{if $content_only && (isset($product->customization_required) && $product->customization_required)}{l s='Customize'}{else}{l s='Add to cart'}{/if}</span>
-								</button>
+                                                            <p id="add_to_cart" class="buttons_bottom_block no-print">
+                                                                <button type="submit" name="Submit" class="exclusive btn btn-outline status-enable">
+                                                                    <i class="fa fa-shopping-cart"></i>
+                                                                    <span>{if $content_only && (isset($product->customization_required) && $product->customization_required)}{l s='Customize'}{else}{l s='Add to cart'}{/if}</span>
+                                                                </button>
 							</p>
 						</div>
 						</div> <!-- end box-cart-bottom -->
